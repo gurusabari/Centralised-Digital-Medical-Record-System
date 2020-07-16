@@ -1,0 +1,60 @@
+<?php
+include("header.php");
+?>
+<div class="wrapper col2">
+  <div id="gallery">
+    <ul>
+      <li class="placeholder" style="background-image:url(images/demo/image1.jpg);">Image Holder</li>
+      <li><a class="swap" style="background-image:url(images/demo/img3.jpg);" href="#gallery"><strong>Services</strong><span><img src="images/demo/image1.jpg" alt="" /></span></a></li>
+      <li><a class="swap" style="background-image:url(images/demo/img1.jpg);" href="#gallery"><strong>Products</strong><span><img src="images/demo/shr_290913_hospital2.jpg" alt="" /></span></a></li>
+      <li class="last"><a class="swap" style="background-image:url(images/demo/img2.jpg);" href="#gallery"><strong>Company</strong><span><img src="images/demo/shr_290913_hospital5.jpg" alt="" /></span></a></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper col4">
+  <div id="container">
+    <div id="content">
+      <h1>Welcome to Wireless Healthcare Management System</h1>
+      <p>  The goal of the WIRELESS HEALTH CARE SYSTEM
+  System is to improve the efficiency of the healthcare system by reducing the overall time and cost used to create documents and retrieve information.
+.</p>
+      <p>The main feature of E-Knowledge in Health Care system is to provide the browser to get appointments from a doctor through internet instead of going there and fixing an appointment..</p>
+      <p>	Everyone needs to have Medical attention at any time. So we allow every user to register freely at any time..</p>
+      <p>Health Care System maintains patient’s prescriptions so that their medical details are always available in Internet, which will be more convenient for the patients. This will be more comfortable for the patient..</p>
+
+      <div class="homecontent">
+        <ul>
+          <li>
+            <h2>Book your Appointment through online   </h2>
+            <p class="imgholder"><a href="patientappointment.php"><img src="images/appointment.png" alt="" style="width:286px;height:100px;" /></a></p>
+          </li>
+          <li class="last">
+            <h2>Login Panel for existing users</h2>          
+            <p class="imgholder"><a href="patientlogin.php"><img src="images/login.jpg" alt="" style="width:286px;height:100px;"  /></a></p>
+          </li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div id="column">
+      <div id="featured">
+        <ul>
+          <li>
+            <h2>SDM Medical College</h2>
+            <p class="imgholder"><img src="images/header_logo_03.png" alt="" style="width:240px;height:90px;"  /></p>
+            <p class="more"><a href="aboutus.php">Read More &raquo;</a></p>
+          </li>
+        </ul>
+      </div>
+      <div class="holder">
+             <h3> New User - Click here to Register </h3>
+        <div class="imgholder"><a href="patient.php"><img src="images/registration.jpg" alt="" style="width:290px;height:90px;"/></a></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<?php
+include("footer.php");
+?>
